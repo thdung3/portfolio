@@ -1,0 +1,77 @@
+html {
+  scroll-behavior: smooth;
+}
+.App{
+  font-family: sans-serif;
+  color: white !important;
+  background-color: black;
+}
+.border-red { 
+  border: 1px solid red;
+}
+
+.background-image {
+    height: 100vh;
+    background-image: linear-gradient(to bottom, rgba(19, 19, 20, 0.7), rgba(2, 15, 14, 0.9)),
+      url("https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.nav-item-style{
+  font-weight: 700;
+  color: white !important;
+}
+
+.text-area{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-avatar-area{ 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#education h1, #skill h1, #experience h1, #portfolio h1 {
+  font-size: 58px;
+  font-weight: 700;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+#skill p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+ 
+#education, #about, #skill, #experience, #portfolio  {
+  margin-top: 200px;
+}
+
+#experience .exp-card-date{
+  font-weight: 900;
+  font-size: 26px;
+  color: #ffbd39;
+}
+
+#experience .exp-card-role{
+  font-size: 28px;
+}
+#experience .exp-card-company{
+  font-weight: 700;
+}
+
+.portfolio-card-title{
+  font-weight: 900;
+  font-size: 26px;
+  color: #ffbd39;
+}
+
