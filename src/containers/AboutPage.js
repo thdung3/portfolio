@@ -5,6 +5,7 @@ import './AboutPage.css'
 export default function AboutPage() {
     return (
         <Container id="about">
+            <h1 className="about-title-text">About Me</h1>
             <Row>
                 <Col md={5} className="about-avatar-area" >
                     <Image
@@ -18,7 +19,6 @@ export default function AboutPage() {
                 </Col>
                 <Col md={1}></Col>
                 <Col md={6}>
-                    <h1 className="about-title-text">About Me</h1>
                     <Row>
                         <Col md={4} className="about-key-text">
                             <p>Name:</p>

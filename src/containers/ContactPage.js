@@ -5,6 +5,7 @@ export default function ContactPage() {
     return (
         <Container id="contact">
             <h1>Contact</h1>
+
         </Container>
     )
 }

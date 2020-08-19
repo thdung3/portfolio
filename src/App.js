@@ -11,7 +11,7 @@ import PortfolioPage from './containers/PortfolioPage'
 
 function App() {
   return (
-    <body className="App">
+    <body className="App" data-spy="scroll" data-target=".navbar-scroll" data-offset="50">
       <NavBar />
       <HomePage />
       <AboutPage />
